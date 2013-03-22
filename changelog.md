@@ -2,6 +2,10 @@
 
 ## Development
 
+## 0.6
+
+* Added support for extension detection ([@polarblau])
+
 ## 0.5
 
 * Added new notifier, guard compatible methods, Travis-CI testing ([@kugaevsky])

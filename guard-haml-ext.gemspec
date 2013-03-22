@@ -3,16 +3,16 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'guard/haml/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'guard-haml'
+  s.name        = 'guard-haml-ext'
   s.version     = Guard::HamlVersion::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Immanuel Häussermann']
-  s.email       = ['haeussermann@gmail.com']
+  s.authors     = ['Immanuel Häussermann', 'Florian Plank']
+  s.email       = ['haeussermann@gmail.com', 'florian@polarblau.com']
   s.homepage    = ''
   s.summary     = %q{Guard gem for Haml}
-  s.description = %q{Compiles file.html.haml into file.html}
+  s.description = %q{Fork of @manufaktor’s guard-haml with support for file extension detection. Compiles file.html.haml into file.html}
 
-  s.rubyforge_project = 'guard-haml'
+  s.rubyforge_project = 'guard-haml-ext'
 
   s.add_dependency('guard', '>= 1.1')
   s.add_dependency('haml', '>= 3.0')
